@@ -1,2 +1,10 @@
-player move= input("Will you choose Rock, Paper, or Scissors?")
-print("you played " + player move)
+import random
+player_move= input("Will you choose Rock, Paper, or Scissors? ")
+choices = ['Computer chooses Rock', 'Computer chooses Paper', 
+           'Computer chooses Scissors']
+
+pick = random.choice(choices)
+print(pick)
+
+# reproducible:
+# random.seed(42)
