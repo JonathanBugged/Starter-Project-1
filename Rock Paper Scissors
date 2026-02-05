@@ -1,1 +1,2 @@
 player move= input("Will you choose Rock, Paper, or Scissors?")
+print("you played " + player move)
